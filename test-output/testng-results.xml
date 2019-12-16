@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9797" started-at="2019-11-26T04:29:25Z" finished-at="2019-11-26T04:29:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9797" started-at="2019-11-26T04:29:25Z" finished-at="2019-11-26T04:29:35Z">
+      <class name="TestNG.ParallelExecution">
+        <test-method status="PASS" signature="launch3()[pri:0, instance:TestNG.ParallelExecution@4de8b406]" name="launch3" duration-ms="9087" started-at="2019-11-26T04:29:25Z" finished-at="2019-11-26T04:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch3 -->
+        <test-method status="PASS" signature="launch2()[pri:0, instance:TestNG.ParallelExecution@4de8b406]" name="launch2" duration-ms="9504" started-at="2019-11-26T04:29:25Z" finished-at="2019-11-26T04:29:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch2 -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:TestNG.ParallelExecution@4de8b406]" name="launch" duration-ms="9747" started-at="2019-11-26T04:29:25Z" finished-at="2019-11-26T04:29:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- TestNG.ParallelExecution -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

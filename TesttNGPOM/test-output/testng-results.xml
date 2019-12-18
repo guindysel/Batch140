@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36058" started-at="2019-12-15T15:58:39Z" finished-at="2019-12-15T15:59:15Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="16672" started-at="2019-12-15T15:58:39Z" finished-at="2019-12-15T15:58:56Z">
+      <class name="testcase.AutocompleteTC">
+        <test-method status="PASS" signature="chromelaunch()[pri:0, instance:testcase.AutocompleteTC@475e586c]" name="chromelaunch" is-config="true" duration-ms="14418" started-at="2019-12-15T15:58:39Z" finished-at="2019-12-15T15:58:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromelaunch -->
+        <test-method status="PASS" signature="frameswitch()[pri:0, instance:testcase.AutocompleteTC@475e586c]" name="frameswitch" duration-ms="36" started-at="2019-12-15T15:58:54Z" finished-at="2019-12-15T15:58:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frameswitch -->
+        <test-method status="PASS" signature="sendkeysvariable()[pri:1, instance:testcase.AutocompleteTC@475e586c]" name="sendkeysvariable" duration-ms="162" started-at="2019-12-15T15:58:54Z" finished-at="2019-12-15T15:58:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendkeysvariable -->
+        <test-method status="PASS" signature="listofelements()[pri:2, instance:testcase.AutocompleteTC@475e586c]" name="listofelements" duration-ms="978" started-at="2019-12-15T15:58:54Z" finished-at="2019-12-15T15:58:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listofelements -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcase.AutocompleteTC@475e586c]" name="teardown" is-config="true" duration-ms="1047" started-at="2019-12-15T15:58:55Z" finished-at="2019-12-15T15:58:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcase.AutocompleteTC -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="19308" started-at="2019-12-15T15:58:56Z" finished-at="2019-12-15T15:59:15Z">
+      <class name="testcase.SeleniumTC">
+        <test-method status="PASS" signature="logintest()[pri:0, instance:testcase.SeleniumTC@2cbb3d47]" name="logintest" is-config="true" duration-ms="13043" started-at="2019-12-15T15:58:56Z" finished-at="2019-12-15T15:59:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="firstName()[pri:0, instance:testcase.SeleniumTC@2cbb3d47]" name="firstName" duration-ms="151" started-at="2019-12-15T15:59:09Z" finished-at="2019-12-15T15:59:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstName -->
+        <test-method status="PASS" signature="lastName()[pri:1, instance:testcase.SeleniumTC@2cbb3d47]" name="lastName" duration-ms="112" started-at="2019-12-15T15:59:09Z" finished-at="2019-12-15T15:59:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastName -->
+        <test-method status="PASS" signature="emailID()[pri:2, instance:testcase.SeleniumTC@2cbb3d47]" name="emailID" duration-ms="184" started-at="2019-12-15T15:59:09Z" finished-at="2019-12-15T15:59:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailID -->
+        <test-method status="PASS" signature="phoneNo()[pri:3, instance:testcase.SeleniumTC@2cbb3d47]" name="phoneNo" duration-ms="128" started-at="2019-12-15T15:59:10Z" finished-at="2019-12-15T15:59:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneNo -->
+        <test-method status="PASS" signature="address()[pri:4, instance:testcase.SeleniumTC@2cbb3d47]" name="address" duration-ms="224" started-at="2019-12-15T15:59:10Z" finished-at="2019-12-15T15:59:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- address -->
+        <test-method status="PASS" signature="city()[pri:5, instance:testcase.SeleniumTC@2cbb3d47]" name="city" duration-ms="124" started-at="2019-12-15T15:59:10Z" finished-at="2019-12-15T15:59:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- city -->
+        <test-method status="PASS" signature="stateInd()[pri:6, instance:testcase.SeleniumTC@2cbb3d47]" name="stateInd" duration-ms="1745" started-at="2019-12-15T15:59:10Z" finished-at="2019-12-15T15:59:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stateInd -->
+        <test-method status="PASS" signature="zipCode()[pri:7, instance:testcase.SeleniumTC@2cbb3d47]" name="zipCode" duration-ms="187" started-at="2019-12-15T15:59:12Z" finished-at="2019-12-15T15:59:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zipCode -->
+        <test-method status="PASS" signature="website()[pri:8, instance:testcase.SeleniumTC@2cbb3d47]" name="website" duration-ms="157" started-at="2019-12-15T15:59:12Z" finished-at="2019-12-15T15:59:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- website -->
+        <test-method status="PASS" signature="hosting()[pri:9, instance:testcase.SeleniumTC@2cbb3d47]" name="hosting" duration-ms="98" started-at="2019-12-15T15:59:12Z" finished-at="2019-12-15T15:59:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hosting -->
+        <test-method status="PASS" signature="projectDescription()[pri:10, instance:testcase.SeleniumTC@2cbb3d47]" name="projectDescription" duration-ms="113" started-at="2019-12-15T15:59:12Z" finished-at="2019-12-15T15:59:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectDescription -->
+        <test-method status="PASS" signature="submit()[pri:11, instance:testcase.SeleniumTC@2cbb3d47]" name="submit" duration-ms="2233" started-at="2019-12-15T15:59:12Z" finished-at="2019-12-15T15:59:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcase.SeleniumTC@2cbb3d47]" name="teardown" is-config="true" duration-ms="785" started-at="2019-12-15T15:59:15Z" finished-at="2019-12-15T15:59:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcase.SeleniumTC -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
